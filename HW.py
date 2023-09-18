@@ -7,7 +7,7 @@ import plotly.express as px
 st.set_page_config(page_title="Interactive Visualizations", layout="wide")
 
 # Load your data
-df = pd.read_csv("C:/Users/abdal/Downloads/archive (3)/Original_raw_NoIndex_YesHeader-.csv")
+df = pd.read_csv("Original_raw_NoIndex_YesHeader-.csv")
 
 # Define your visualizations
 def scatter_plot():
